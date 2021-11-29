@@ -23,4 +23,6 @@ About a minute after posting this, it appears on the site - hooray!
 
 So my initial issue is that the netlify-generated site looks quite different to the one hosted locally. This ain't right:
 
-![Screenshot of badly formatted blog](Screenshot_20211129_125159.png)
+![Screenshot of badly formatted blog](/img/post/Screenshot_20211129_125159.png)
+
+After adding a quick 'netlify.toml' file as per [Hugo's instructions](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) to set the same hugo version, everything is looking pretty good though.
