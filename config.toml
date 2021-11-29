@@ -1,5 +1,5 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://hugo.groundlake.org/'
 languageCode = 'en-us'
-title = 'Groundlake Hugo Blog'
+title = 'Groundlake News'
 theme = 'beautifulhugo'
 
