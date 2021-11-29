@@ -19,3 +19,8 @@ Obligatory "FRIST PSOT" post. I have been largely following [this tutorial](http
 
 (Actually, I originally added the theme as a clone before the parent was pushed, but undid that once I realised Netlify couldn't see it.)
 
+About a minute after posting this, it appears on the site - hooray!
+
+So my initial issue is that the netlify-generated site looks quite different to the one hosted locally. This ain't right:
+
+![Screenshot of badly formatted blog](Screenshot_20211129_125159.png)
