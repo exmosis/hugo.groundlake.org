@@ -26,3 +26,7 @@ So my initial issue is that the netlify-generated site looks quite different to 
 ![Screenshot of badly formatted blog](/img/post/Screenshot_20211129_125159.png)
 
 After adding a quick 'netlify.toml' file as per [Hugo's instructions](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) to set the same hugo version, everything is looking pretty good though.
+
+Woo! 'stat' shows I created the original hugo directory at a minute past 12, and it's a minute past 1pm now. So from nothing to new blog in bang on an hour, I reckon. 
+
+Job done, time for lunch.
