@@ -1,5 +1,5 @@
-baseURL = 'https://hugo.groundlake.org/'
+baseURL = 'https://blog.groundlake.org/'
 languageCode = 'en-us'
-title = 'Groundlake News'
+title = 'Groundlake Blog'
 theme = 'beautifulhugo'
 
