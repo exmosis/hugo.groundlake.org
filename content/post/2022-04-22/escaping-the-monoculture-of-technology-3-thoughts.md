@@ -1,5 +1,5 @@
 ---
-title: "Escaping the Monoculture of Technology: 3 Thoughts"
+title: "Escaping the White-Male Monoculture of Technology: 3 Thoughts"
 date: 2022-04-22T08:30:00+01:00
 ---
 
