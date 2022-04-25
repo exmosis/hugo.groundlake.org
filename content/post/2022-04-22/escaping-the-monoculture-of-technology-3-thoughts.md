@@ -5,7 +5,7 @@ date: 2022-04-22T08:30:00+01:00
 
 _TL;DR: The technology we have now isn't an inevitable state of affairs, but has come from a long-term series of cultural choices. We still see short-term profit as the main aim of technology, which discourages other cultural views, lifestyles and priorities within the sector. But we can think about technology in terms of people more, and take active steps to break out of a monocultural loop._
 
-**Disclaimer: This post is a set of personal reflections and follow-on thoughts following a fascinating workshop session. I tend to be pretty critical of my own thoughts, but none of these words should be taken as critical of the workshop itself, which was amazingly professional and well-run. I'm hugely grateful to [Hannah](https://opcan.co.uk/) for inviting me along, and for kickstarting this post and this chain of thoughts.**
+**This post is a set of personal reflections and follow-on thoughts following a fascinating workshop session. I'm hugely grateful to [Hannah](https://opcan.co.uk/) for inviting me along, and for kickstarting this post and this chain of thoughts.**
 
 
 ## Monday morning ☕
