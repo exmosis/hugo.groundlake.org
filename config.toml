@@ -3,3 +3,8 @@ languageCode = 'en-us'
 title = 'Groundlake Blog'
 theme = 'beautifulhugo'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
