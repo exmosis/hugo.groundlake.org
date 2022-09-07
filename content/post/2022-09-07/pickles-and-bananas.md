@@ -1,5 +1,6 @@
 ---
 title: "Pickles and Bananas: Our messy relationship with technology, and simple meditation to unlock change"
+description: "I have a theory that we've got ourselves into a pickle when it comes to using our devices; a dead-end of interaction..."
 date: 2022-09-07T09:57:52+01:00
 draft: false
 ---
