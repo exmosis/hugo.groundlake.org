@@ -15,21 +15,21 @@ Most recently, I've been moving my backups to [pCloud](https://www.pcloud.com/) 
 
 At the same time, I was reading articles about grid-aware computing as a way to make technology use more environmental. In particular, the Green Software Foundation's 2022 article introducing the idea of [Carbon-aware computing](https://hackernoon.com/our-code-is-harming-the-planet-we-need-carbon-aware-design-patterns), and Ismael Velasco's [follow-up critique article](https://hackernoon.com/carbon-aware-computing-next-green-breakthrough-or-new-greenwashing) that looks at the issue at scale. (Both are recommended.)
 
-I wanted to see if it was feasible to tie my backups in with the third approach outlined by the CSF article, regarding **Demand Shaping**, or "Running our software so it does more when electricity is clean and less when it’s dirty". 
+I wanted to see if it was feasible to tie my backups in with the third approach outlined by the GSF article, regarding **Demand Shaping**, or "Running our software so it does more when electricity is clean and less when it’s dirty". 
 
 It certainly was possible, and the rest of this post dives into how I hacked something together at the end of a Friday afternoon with a few linux scripts and cup of tea.
 
 ### Overview
 
-I'm wanted to break my scripts up into three different jobs, just to compartmentalise them, and set out some structure for future work. My main objectives were:
+I wanted to break up my scripts into three different jobs, just to help set some structure for future work. **My main objectives were:**
 
 1. Get the current "greenness" of the UK grid, as a percentage. 
 2. Make sure a backup transfer is running, using rclone.
 3. Set the transfer speed used by rclone dynamically, based on the grid greenness.
 
-By doing this I can concentrate on the specifics of each part more easily, just like decoupling code. One of the aims here is to isolate out part 1 from anything to do with backups, ie have a kind of local "current mix" config/endpoint that other local services can use too.
+By doing this I can concentrate on the specifics of each part more easily, just like decoupling code. One of the aims here is to isolate out part 1 from anything to do with backups, and move towards a local config/endpoint that other local services can use too.
 
-"Greenness" is deliberately in quotes too - the definition of sustainability can be quite subjective (depending on timescales and other context) and keeping this separate from everything else can make that discussion easier later on.
+"Greenness" is deliberately in quotes too - the definition of sustainability can be quite subjective (depending on timescales and other context) and keeping this separate from everything else can make decisions and changes easier later on.
 
 ### 1. Get the current grid greenness
 
